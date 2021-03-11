@@ -1,0 +1,44 @@
+.customRow {
+    background-color: #3A42FF;
+    color: white;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom:50px;
+    border-radius: 10px;
+}
+.detailCardImg{
+    padding: 15px 5px;
+    height: 284px;
+}
+img{
+    height:100%;
+}
+.customCol{
+    padding: 50px;
+}
+p.detailsText{
+    text-align: justify;
+}
+a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+a.social:hover {
+    transform: translateY(-2px);
+}
+
+a.youtube {
+    color: #eb3223;
+  }
+  
+  a.facebook {
+    color: #4968ad;
+  }
+  
+  a.twitter {
+    color: #49a1eb;
+  }
+.socialIcon{
+    margin: 50px 0px;
+}

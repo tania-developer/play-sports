@@ -1,0 +1,9 @@
+.displayCard{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 600px){
+    .displayCard{
+        flex-direction: column;
+    }
+}
