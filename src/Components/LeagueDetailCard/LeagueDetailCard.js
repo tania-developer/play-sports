@@ -6,7 +6,7 @@ import { faVenusMars, faFlag, faFutbol, faMapMarker } from '@fortawesome/free-so
 import { faFacebookSquare, faYoutubeSquare, faTwitterSquare } from "@fortawesome/free-brands-svg-icons";
 import image from '../../images/male.png';
 import img from '../../images/female.png';
-import bannerImg from '../../images/banner.png';
+
 
 const LeagueDetailCard = (props) => {
     const { strCountry, intFormedYear, strGender, strLogo, strSport, strLeague, strBanner } = props.detail;
@@ -47,15 +47,18 @@ const LeagueDetailCard = (props) => {
                 Alias iure modi at atque suscipit reprehenderit, voluptatibus sequi tenetur sunt delectus corporis! Consequatur eum accusantium quam quibusdam sed odio magnam delectus a sit repellat est quisquam deserunt, culpa libero?</p>
             </div>
             <div className="socialIcon">
-                <a href="https://www.youtube.com/" target="_blank"
+                <a href="https://www.facebook.com/" target="_blank"
+                    rel="noreferrer noopener"
                     className="facebook social">
                     <FontAwesomeIcon icon={faFacebookSquare} size="2x" />
                 </a>
-                <a href="https://www.facebook.com/" target= "_blank"
+                <a href="https://www.youtube.com/" target= "_blank"
+                    rel="noreferrer noopener"
                     className="youtube social">
                     <FontAwesomeIcon icon={faYoutubeSquare} size="2x" />
                 </a>
-                <a href="https://www.twitter.com/" target="_blank" className="twitter social">
+                <a href="https://www.twitter.com/" target="_blank" 
+                    rel="noreferrer noopener" className="twitter social">
                     <FontAwesomeIcon icon={faTwitterSquare} size="2x" />
                 </a>
             </div>

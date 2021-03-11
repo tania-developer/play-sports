@@ -1,12 +1,12 @@
 
 import './App.css';
-import Banner from './Components/Banner/Banner';
+
 
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  
 } from "react-router-dom";
 import Home from './Components/Home/Home';
 import NotFound from './Components/NotFound/NotFound';
